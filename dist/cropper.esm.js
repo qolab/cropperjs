@@ -5,7 +5,7 @@
  * Copyright 2015-present Chen Fengyuan
  * Released under the MIT license
  *
- * Date: 2019-10-04T04:33:48.372Z
+ * Date: 2019-10-26T19:37:51.438Z
  */
 
 function _typeof(obj) {
@@ -247,7 +247,7 @@ var DEFAULTS = {
   zoom: null
 };
 
-var TEMPLATE = '<div class="cropper-container" touch-action="none">' + '<div class="cropper-wrap-box">' + '<div class="cropper-canvas"></div>' + '</div>' + '<div class="cropper-drag-box"></div>' + '<div class="cropper-crop-box">' + '<span class="cropper-view-box"></span>' + '<span class="cropper-dashed dashed-h"></span>' + '<span class="cropper-dashed dashed-v"></span>' + '<span class="cropper-center"></span>' + '<span class="cropper-face"></span>' + '<span class="cropper-line line-e" data-cropper-action="e"></span>' + '<span class="cropper-line line-n" data-cropper-action="n"></span>' + '<span class="cropper-line line-w" data-cropper-action="w"></span>' + '<span class="cropper-line line-s" data-cropper-action="s"></span>' + '<span class="cropper-point point-e" data-cropper-action="e"></span>' + '<span class="cropper-point point-n" data-cropper-action="n"></span>' + '<span class="cropper-point point-w" data-cropper-action="w"></span>' + '<span class="cropper-point point-s" data-cropper-action="s"></span>' + '<span class="cropper-point point-ne" data-cropper-action="ne"></span>' + '<span class="cropper-point point-nw" data-cropper-action="nw"></span>' + '<span class="cropper-point point-sw" data-cropper-action="sw"></span>' + '<span class="cropper-point point-se" data-cropper-action="se"></span>' + '</div>' + '</div>';
+var TEMPLATE = '<div class="cropper-container" touch-action="none">' + '<div class="cropper-canvas"></div>' + '<div class="cropper-drag-box"></div>' + '<div class="cropper-crop-box">' + '<div class="cropper-view-box"></div>' + '<div class="cropper-dashed dashed-h"></div>' + '<div class="cropper-dashed dashed-v"></div>' + '<div class="cropper-center"></div>' + '<div class="cropper-face"></div>' + '<div class="cropper-line line-e" data-cropper-action="e"></div>' + '<div class="cropper-line line-n" data-cropper-action="n"></div>' + '<div class="cropper-line line-w" data-cropper-action="w"></div>' + '<div class="cropper-line line-s" data-cropper-action="s"></div>' + '<div class="cropper-point point-e" data-cropper-action="e"></div>' + '<div class="cropper-point point-n" data-cropper-action="n"></div>' + '<div class="cropper-point point-w" data-cropper-action="w"></div>' + '<div class="cropper-point point-s" data-cropper-action="s"></div>' + '<div class="cropper-point point-ne" data-cropper-action="ne"></div>' + '<div class="cropper-point point-nw" data-cropper-action="nw"></div>' + '<div class="cropper-point point-sw" data-cropper-action="sw"></div>' + '<div class="cropper-point point-se" data-cropper-action="se"></div>' + '</div>' + '</div>';
 
 /**
  * Check if the given value is not a number.
@@ -1181,8 +1181,6 @@ function parseOrientation(orientation) {
     case 8:
       rotate = -90;
       break;
-
-    default:
   }
 
   return {
@@ -2044,8 +2042,6 @@ var change = {
           }
 
           break;
-
-        default:
       }
     };
 
@@ -2410,8 +2406,6 @@ var change = {
         }
 
         break;
-
-      default:
     }
 
     if (renderable) {
