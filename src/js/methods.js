@@ -254,7 +254,7 @@ export default {
 
     scale = Number(scale);
 
-    if (scale >= 0 && this.ready && !this.disabled && options.zoomable) {
+    if (scale >= 0 && this.ready && !this.disabled) {
       const newCanvasWidth = canvasData.naturalWidth * scale;
       const newCanvasHeight = canvasData.naturalHeight * scale;
 
